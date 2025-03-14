@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+   text-align: center;
+   margin: 70px auto;
+   padding: 40px;
+   width: 400px;
+   background-color: blueviolet;
+   color:white;
+   border-radius: 15px;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2) ;
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #555;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+
+form input:focus {
+    outline: none;
+    border-color: aqua;
+}
+
+form input[type="checkbox"] {
+    width: auto;
+    display: inline-block;
+}
+
+form button {
+    width: 100%;
+    padding: 20px;
+    background-color: brown;
+    color: black;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: brown;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+}
+
+p a {
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
